@@ -1,0 +1,3 @@
+C:/Users/svetl/OneDrive/Desktop/папка))/projects/Project_for_PKS/build/CMakeFiles/ConsolePaint.dir
+C:/Users/svetl/OneDrive/Desktop/папка))/projects/Project_for_PKS/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/svetl/OneDrive/Desktop/папка))/projects/Project_for_PKS/build/CMakeFiles/ZERO_CHECK.dir

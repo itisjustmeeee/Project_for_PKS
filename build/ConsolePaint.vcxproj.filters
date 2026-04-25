@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\ClearCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\CommandHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\CreateCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\DrawLineCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\DrawPointCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\DrawRectangleCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\FileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\FillCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\LoadCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\SaveCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8BD03BAA-2219-3BC3-940D-1776360D66F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
