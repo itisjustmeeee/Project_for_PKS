@@ -29,16 +29,16 @@ cmake --build build
 ## Запуск проекта
 
 ```
-cd build
-./target_exec
+cd build/Debug
+./target_exe
 ```
 
 ## Структура проекта
 
- - (src/)[src/] - папка с файлами с исходным кодом (.cpp)
- - (include/)[include/] - папка с заголовочными файлами (.h)
- - (CMakeLists.txt)[CMakeLists.txt]
- - (README.md)[README.md]
+ - [src/](src/) - папка с файлами с исходным кодом (.cpp)
+ - [include/](include/) - папка с заголовочными файлами (.h)
+ - [CMakeLists.txt](CMakeLists.txt)
+ - [README.md](README.md)
 
  ## Пример вывода
 
