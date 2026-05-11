@@ -1,3 +1,10 @@
+/build/
+/cmake-build-debug/
+/cmake-build-release/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
 # Prerequisites
 *.d
 
@@ -40,4 +47,3 @@
 # debug information files
 *.dwo
 
-/build/
