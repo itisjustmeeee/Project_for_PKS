@@ -1,17 +1,22 @@
-#include <gtest/gtest.h>
+#include <cassert>
+#include <iostream>
 #include "Canvas.h"
 #include "FileManager.h"
 
-TEST(FileManagerTest, SaveAndLoadRectangle) {
-    Canvas canvas(10, 10);
+int main() {
+    Canvas canvas(5, 5);
 
-    canvas.drawRectangle(1, 1, 5, 5, '#');
+    canvas.drawLine(1, 1, 3, 4, '*');
 
-    FileManager::SaveToFile(canvas, "test.txt");
+    FileManager::SaveToFile(canvas, "test1.txt");
 
     Canvas loaded(1, 1);
 
-    FileManager::LoadFromFile(loaded, "test.txt");
+    FileManager::LoadFromFile(loaded, "test1.txt");
 
-    EXPECT_EQ(loaded.getGrid()[1][1], '#');
+    assert(loaded.getGrid()[1][1] == '*');
+
+    std::cout << "scenario_save_load passed successfully\n";
+
+    return 0;
 }
