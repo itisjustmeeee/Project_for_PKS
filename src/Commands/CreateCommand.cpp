@@ -1,4 +1,4 @@
-#include "CreateCommand.h"
+#include "Commands/CreateCommand.h"
 #include <iostream>
 
 CreateCommand::CreateCommand(int w, int h) : width(w), height(h) {}

@@ -17,6 +17,11 @@ public:
 
     void clear();
     void display() const;
+    int getWidth() const;
+    int getHeight() const;
+    
+    const std::vector<std::string>& getGrid() const;
+    void setGrid(const std::vector<std::string>& newGrid);
 
     void drawPoint(int x, int y, char c);
     void drawLine(int x1, int y1, int x2, int y2, char c);

@@ -7,34 +7,34 @@
     <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Canvas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\ClearCommand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\CommandHandler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\CreateCommand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\DrawLineCommand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\DrawPointCommand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\DrawRectangleCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\FileManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\FillCommand.cpp">
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Commands\ClearCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\LoadCommand.cpp">
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Commands\CreateCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\SaveCommand.cpp">
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Commands\DrawLineCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Commands\DrawPointCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Commands\DrawRectangleCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Commands\FillCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Files\LoadCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\src\Files\SaveCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,4 +1,4 @@
-#include "DrawPointCommand.h"
+#include "Commands/DrawPointCommand.h"
 
 DrawPointCommand::DrawPointCommand(int x, int y, char c) : x(x), y(y), c(c) {}
 

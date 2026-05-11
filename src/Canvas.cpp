@@ -2,6 +2,8 @@
 #include <string>
 #include <cstdlib>
 #include <iostream>
+#include <stack>
+#include <vector>
 
 Canvas::Canvas(int w, int h) : width(w), height(h) {
     grid.resize(height, std::string(width, '.'));
@@ -19,6 +21,36 @@ void Canvas::display() const {
 
 bool Canvas::isValid(int x, int y) const {
     return x >= 0 && x < width && y >= 0 && y < height;
+}
+
+int Canvas::getWidth() const {
+    return width;
+}
+
+int Canvas::getHeight() const {
+    return height;
+}
+
+const std::vector<std::string>& Canvas::getGrid() const {
+    return grid;
+}
+
+void Canvas::setGrid(const std::vector<std::string>& newGrid) {
+    if (newGrid.empty()) return;
+
+    size_t newHeight = newGrid.size();
+    size_t newWidth = newGrid[0].size();
+
+    for (const auto& row : newGrid) {
+        if (row.size() != newWidth) {
+            std::cerr << "Invalid grid format\n";
+            return;
+        }
+    }
+
+    width = newWidth;
+    height = newHeight;
+    grid = newGrid;
 }
 
 void Canvas::setPixel(int x, int y, char c) {
@@ -80,3 +112,38 @@ void Canvas::drawLine(int x1, int y1, int x2, int y2, char c) {
 void Canvas::clear() {
     grid.assign(height, std::string(width, '.'));
 }
+
+void Canvas::drawRectangle(int x1, int y1, int x2, int y2, char c) {
+    if (x1 > x2) std::swap(x1, x2);
+    if (y1 > y2) std::swap(y1, y2);
+
+    drawLine(x1, y1, x2, y1, c);
+    drawLine(x1, y2, x2, y2, c);
+    drawLine(x1, y1, x1, y2, c);
+    drawLine(x2, y1, x2, y2, c);
+}
+
+void Canvas::fill(int x, int y, char newChar) {
+    if (!isValid(x, y)) return;
+
+    char target = grid[y][x];
+    if (target == newChar) return;
+
+    std::stack<std::pair<int, int>> st;
+    st.push({x, y});
+
+    while(!st.empty()) {
+        auto [cx, cy] = st.top();
+        st.pop();
+
+        if (!isValid(cx, cy)) continue;
+        if (grid[cy][cx] != target) continue;
+        
+        grid[cy][cx] = newChar;
+
+        st.push({cx + 1, cy});
+        st.push({cx - 1, cy});
+        st.push({cx, cy + 1});
+        st.push({cx, cy - 1});
+    }
+ }
