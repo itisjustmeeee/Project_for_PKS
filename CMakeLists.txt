@@ -16,10 +16,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(googletest)
 
-enable_testing()
-
-add_subdirectory(tests)
-
 set(SOURCES
     src/main.cpp
     src/Canvas.cpp
@@ -43,6 +39,8 @@ target_include_directories(ConsolePaint PUBLIC
     include
     src
 )
+
+add_subdirectory(tests)
 
 if (MSVC)
     target_compile_options(ConsolePaint PRIVATE /W4)
