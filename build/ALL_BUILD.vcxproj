@@ -198,6 +198,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{DF3B1240-2BA6-3879-B697-D941A2C0FE05}</Project>
       <Name>runTests</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\build\tests\scenario_draw.vcxproj">
+      <Project>{BD0D152E-6B6A-3D1C-8719-8CEC58571FEA}</Project>
+      <Name>scenario_draw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\build\tests\scenario_resize.vcxproj">
+      <Project>{A373981F-6AE9-3C98-9FE6-8777E6E25641}</Project>
+      <Name>scenario_resize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\svetl\OneDrive\Desktop\папка))\projects\Project_for_PKS\build\tests\scenario_save_load.vcxproj">
+      <Project>{AB437A3F-A2D9-331F-BFC3-9231303FDCA3}</Project>
+      <Name>scenario_save_load</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
