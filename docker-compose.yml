@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  consolepaint:
+    build: .
+    container_name: consolepaint_app
+    stdin_open: true
+    tty: true

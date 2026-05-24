@@ -1,6 +1,7 @@
 #include <string>
 #include <iostream>
 #include <sstream>
+#include <memory>
 
 #include "CommandHandler.h"
 #include "Command.h"
